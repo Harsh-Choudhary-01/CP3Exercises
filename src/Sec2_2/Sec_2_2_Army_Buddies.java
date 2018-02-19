@@ -1,13 +1,10 @@
-/**
- * Created by harsh on 11/9/17.
- */
-
+package Sec2_2;
 import java.util.*;
 import java.io.*;
 //Tried to use a boolean array with searches on both sides but timed out
 
-//Sec_2_2_Army_Buddies.txt
-class Main {
+//Sec2_2.Sec_2_2_Army_Buddies.txt
+class Sec_2_2_Army_Buddies {
     public static void main(String[] args) throws FileNotFoundException {
         if (args.length > 0)
             System.setIn(new FileInputStream(args[0]));

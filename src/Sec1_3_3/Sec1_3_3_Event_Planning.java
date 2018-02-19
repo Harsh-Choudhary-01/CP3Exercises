@@ -1,11 +1,9 @@
-/**
- * Created by harsh on 10/28/17.
- */
+package Sec1_3_3;
 
 import java.util.*;
 import java.io.*;
 
-//Sec1_3_3_Event_Planning.txt
+//Sec1_3_3.Sec1_3_3_Event_Planning.txt
 class Sec1_3_3_Event_Planning {
     public static void main(String[] args) throws FileNotFoundException {
         if (args.length > 0)

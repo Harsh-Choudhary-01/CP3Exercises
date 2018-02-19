@@ -1,11 +1,9 @@
-/**
- * Created by harsh on 11/7/17.
- */
+package Sec1_3_3;
 
 import java.util.*;
 import java.io.*;
 //12 minutes 3 seconds
-//Sec_1_3_3_Snail.txt
+//Sec1_3_3.Sec_1_3_3_Snail.txt
 class Sec_1_3_3_Snail {
     public static void main(String[] args) throws FileNotFoundException {
         if (args.length > 0)

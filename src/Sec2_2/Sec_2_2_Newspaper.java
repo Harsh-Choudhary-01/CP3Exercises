@@ -1,6 +1,4 @@
-/**
- * Created by harsh on 11/9/17.
- */
+package Sec2_2;
 
 import java.util.*;
 import java.io.*;

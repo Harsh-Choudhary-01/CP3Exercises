@@ -1,12 +1,10 @@
-/**
- * Created by harsh on 11/8/17.
- */
+package Sec2_2;
 
 import java.util.*;
 import java.io.*;
 //30 minutes... I was getting this really weird RTE when using in.nextInt() inside a for loop instead of
 //splitting next line
-//Sec_2_2_Jolly_Jumpers.txt
+//Sec2_2.Sec_2_2_Jolly_Jumpers.txt
 class Sec_2_2_Jolly_Jumpers {
     public static void main(String[] args) throws FileNotFoundException {
         if (args.length > 0)
