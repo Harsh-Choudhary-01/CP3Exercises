@@ -1,0 +1,10 @@
+3
+
+A B F G
+A<B B<F
+
+A B F G
+A<B B<A
+
+A B C D
+B<A C<D
