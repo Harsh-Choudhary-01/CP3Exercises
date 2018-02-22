@@ -3,6 +3,14 @@ package Graphs.Sec4_2;
 import java.util.*;
 import java.io.*;
 
+/*
+Errors:
+1. A few small errors here and there. I was printing the result after all iterations (outside the times loop)
+2. The above error plus the fact that I wasn't clearing my lists in between test cases caused TLE
+3. I also had an one off error on my time loop (time < times instead of time <= times)
+4. A presentation error for adding a newline even after the last test case
+ */
+
 class Ordering {
     static ArrayList<Integer> sequence = new ArrayList<>();
     static boolean[] visited;
