@@ -63,51 +63,51 @@ class CriticalLinks {
             }
         }
     }
-}
 
-class IntegerPair implements Comparable<IntegerPair> {
-    public int getKey() {
-        return key;
-    }
-
-    public int getValue() {
-        return value;
-    }
-
-    private int key;
-    private int value;
-
-    public IntegerPair(int key, int value) {
-        this.key = key;
-        this.value = value;
-    }
-
-    public String toString() {
-        return key + "=" + value;
-    }
-
-    public int hashCode() {
-        return key * 13 + value;
-    }
-
-
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o instanceof IntegerPair) {
-            IntegerPair pair = (IntegerPair) o;
-            if (key != pair.key) return false;
-            if (value != pair.value) return false;
-            return true;
+    static class IntegerPair implements Comparable<IntegerPair> {
+        public int getKey() {
+            return key;
         }
-        return false;
-    }
 
-    public int compareTo(IntegerPair o) {
-        int diff =  key - o.key;
-        if (diff != 0)
-            return diff;
-        else
-            return value - o.value;
-    }
+        public int getValue() {
+            return value;
+        }
 
+        private int key;
+        private int value;
+
+        public IntegerPair(int key, int value) {
+            this.key = key;
+            this.value = value;
+        }
+
+        public String toString() {
+            return key + "=" + value;
+        }
+
+        public int hashCode() {
+            return key * 13 + value;
+        }
+
+
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (o instanceof IntegerPair) {
+                IntegerPair pair = (IntegerPair) o;
+                if (key != pair.key) return false;
+                if (value != pair.value) return false;
+                return true;
+            }
+            return false;
+        }
+
+        public int compareTo(IntegerPair o) {
+            int diff =  key - o.key;
+            if (diff != 0)
+                return diff;
+            else
+                return value - o.value;
+        }
+
+    }
 }
