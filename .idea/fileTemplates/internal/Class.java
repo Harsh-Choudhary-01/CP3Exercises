@@ -2,6 +2,7 @@
 import java.util.*;
 import java.io.*;
 
+@SuppressWarnings("Duplicates")
 class ${NAME} {
     public static void main(String[] args) throws IOException {
         //Scanner in = new Scanner(System.in);
