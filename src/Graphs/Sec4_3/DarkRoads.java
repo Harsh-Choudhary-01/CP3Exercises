@@ -36,7 +36,7 @@ class DarkRoads {
         }
     }
 
-    static class IntegerTriple implements Comparable<IntegerTriple> {
+    private static class IntegerTriple implements Comparable<IntegerTriple> {
         double weight;
         int first;
         int second;
@@ -55,7 +55,7 @@ class DarkRoads {
 
     }
 
-    static class UnionFind {
+    private static class UnionFind {
         private int[] parent, rank;
         int numDisjointSets;
 
